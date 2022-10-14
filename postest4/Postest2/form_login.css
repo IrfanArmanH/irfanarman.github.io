@@ -43,7 +43,7 @@ label{
     margin-top: 10px;
 }
 
-.form_login input[type="submit"]{
+.form_login button{
     border: none;
     width: 70%;
     padding: 5px 0px;
@@ -52,7 +52,7 @@ label{
     color: rgb(255, 255, 255);
 }
 
-.form_login input[type="submit"]:hover{
+.form_login button:hover{
     background-color: rgb(230, 230, 230);
     color: rgb(15, 15, 15);
     transition: .4s ease;
