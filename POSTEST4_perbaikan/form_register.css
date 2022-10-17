@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(101, 221, 181);
+    background-image:url("gambar/bg-content.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    
+}
+
+.form-register{
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 750px;
+    height: 850px;
+    position: absolute;
+    left: 28%;
+    top: 23%;
+    margin-bottom: 50px;
+    position: absolute;
+    padding: 60px 30px;
+    transform: translate(-50px,-50px);
+    box-sizing: border-box;
+}
+
+.form-register h1{
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.form-register label{
+    color: white;
+    background: transparent;
+}
+
+.form-register input[type="text"],input[type="password"],input[type="phone"]{
+    color:white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 3px 0px;
+}
+
+.form-register textarea{
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 3px 0px;
+    
+}
+
+.form-register input[type="radio"]{
+    padding: 5px 0px;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.form-register input[type="date"]{
+    padding: 5px 0px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+.form-register input[type="file"]{
+    padding: 5px 0px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+.form-register input[type="phone"]{
+    padding: 5px 0px;
+    margin-top: 15px;
+}
+
+select{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    padding: 3px 0px;
+}
+
+select option{
+    border: none;
+    background: transparent;
+    background-color: rgb(0, 0 , 0 , 0.8);
+    color: white;
+    margin-top: 10px;
+}
+
+.form-register input[type="submit"]{
+    padding: 13px 28px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(35, 221, 221);
+    color: rgb(255, 255, 255);
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.form-register input[type="submit"]:hover{
+    background-color: rgb(243, 241, 241);
+    color:rgb(0, 0.9, 0);
+    transition: .4s ease;
+}
+
+.form-register button{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.form-register button a{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 10px;
+    background-color: rgb(35, 221, 221);
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.form-register button a:hover{
+    color:rgb(0, 0.9, 0);
+    background-color: white;
+    transition: .4s ease;
+    
+}
+
